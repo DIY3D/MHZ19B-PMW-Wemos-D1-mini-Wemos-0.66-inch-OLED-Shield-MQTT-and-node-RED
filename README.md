@@ -7,16 +7,16 @@ The node-RED flow creates a simple dashboard and gives audio warnings using Text
 There are 2 ways to read the data from this CO2 sensor; that is UART or PWM. This CO2 is connected to a Wemos D1 mini and uses pin D5 for the PWM reading.
 I compared this sensor with 2 other certified CO2 sensors and find a difference of 60-80 ppm which a think is pretty good for this cheap sensor.
 
+<img src="Images/MHZ19B.jpg" width="100" >
+[Winsum MHZ19B CO2 sensor]
+
+<img src="Images/WemosOled.jpg" width="100" >
+[Wemos D1 mini with long female header and the  0.66 inch OLED display with short male headers]
 
 
-
-[Winsum MHZ19B CO2 sensor](https://github.com/DIY3D/MHZ19B-PMW-Wemos-D1-mini-Wemos-0.66-inch-OLED-Shield-MQTT-and-node-RED/blob/master/Images/MHZ19B.jpg)
-
-[Wemos D1 mini with long female header and the  0.66 inch OLED display with short male headers ](/blob/master/Images/WemosOled.jpg)
+<img src="Images/WemosOledStack.jpg" width="100" >
+[Wemos and Oled stack together]
 
 
-[Wemos and Oled stack together](/blob/master/Images/WemosOledStack.jpg)
-
-
-MH-Z19B user's manual:
+[MH-Z19B user's manual:]
 https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf
