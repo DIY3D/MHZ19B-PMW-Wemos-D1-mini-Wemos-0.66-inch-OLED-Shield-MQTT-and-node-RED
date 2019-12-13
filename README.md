@@ -10,12 +10,12 @@ I compared this sensor with 2 other certified CO2 sensors and find a difference 
 
 
 
-[Winsum MHZ19B CO2 sensor](Images/MHZ19B.jpg)
+[Winsum MHZ19B CO2 sensor](/blob/master/Images/MHZ19B.jpg)
 
-[Wemos D1 mini with long female header and the  0.66 inch OLED display with short male headers ](Images/WemosOled.jpg)
+[Wemos D1 mini with long female header and the  0.66 inch OLED display with short male headers ](/blob/master/Images/WemosOled.jpg)
 
 
-[Wemos and Oled stack together](Images/WemosOledStack.jpg)
+[Wemos and Oled stack together](/blob/master/Images/WemosOledStack.jpg)
 
 
 MH-Z19B user's manual:
