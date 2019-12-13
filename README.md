@@ -7,7 +7,7 @@ The node-RED flow creates a simple dashboard and gives audio warnings using Text
 There are 2 ways to read the data from this CO2 sensor; that is UART or PWM. This CO2 is connected to a Wemos D1 mini and uses pin D5 for the PWM reading.
 I compared this sensor with 2 other certified CO2 sensors and find a difference of 60-80 ppm which a think is pretty good for this cheap sensor.
 
-<img src="Images/MHZ19B.jpg" width="100" >
+<img src="Images/MHZ19B.JPG" width="100" >
 [Winsum MHZ19B CO2 sensor]
 
 <img src="Images/WemosOled.jpg" width="100" >
