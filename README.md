@@ -15,7 +15,11 @@ I compared this sensor with 2 other certified CO2 sensors and find a difference 
 <b>Wemos D1 mini with long female header and the  0.66 inch OLED display with short male headers</b>
 <p></p>
 <img src="Images/WemosOledStack.jpg" width="300" >
-<b>Wemos and Oled stack together</b>
+<b>Wemos and Oled stacked</b>
+<p></p>
+<img src="Images/IMG_20191214_163533.jpg" width="300" >
+<b>Breadboard setup</b>
+<p></p>
 <p></p>
 <a href="https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf">MH-Z19B user's manual</a> 
 
