@@ -34,7 +34,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 #define pwmPin D5
 //int preheatSec = 120;
-int preheatSec = 120;
+int preheatSec = 120;             // For testing, according to the manual it needs to be 180                                 
 int prevVal = LOW;
 unsigned long th, tl, h, l, co2 = 0;
 
