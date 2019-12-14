@@ -4,19 +4,18 @@ This CO2 sensor, connect to a MQTTbroker and publish the CO2 level to certain To
 Clients can subcribe to that Topic and receive the CO2 level. This is done by using a "MQTT out" node in node-RED.
 The node-RED flow creates a simple dashboard and gives audio warnings using Text To Speak nodes.
 
-There are 2 ways to read the data from this CO2 sensor; that is UART or PWM. This CO2 is connected to a Wemos D1 mini and uses pin D5 for the PWM reading.
+There are 2 ways to read the data from this CO2 sensor; that is UART or PWM. This CO2 sensor is connected to a Wemos D1 mini and uses pin D5 for the PWM reading.
 I compared this sensor with 2 other certified CO2 sensors and find a difference of 60-80 ppm which a think is pretty good for this cheap sensor.
 
-<img src="Images/MHZ19B.JPG" width="100" >
-[Winsum MHZ19B CO2 sensor]
+<img src="Images/MHZ19B.JPG" width="300" >
+<b>Winsum MHZ19B CO2 sensor</b>
 
-<img src="Images/WemosOled.jpg" width="100" >
-[Wemos D1 mini with long female header and the  0.66 inch OLED display with short male headers]
-
-
-<img src="Images/WemosOledStack.jpg" width="100" >
-[Wemos and Oled stack together]
+<img src="Images/WemosOled.jpg" width="300" >
+<b>Wemos D1 mini with long female header and the  0.66 inch OLED display with short male headers</b>
 
 
-[MH-Z19B user's manual:]
-https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf
+<img src="Images/WemosOledStack.jpg" width="300" >
+<b>Wemos and Oled stack together</b>
+
+<a href="https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf">MH-Z19B user's manual</a> 
+
