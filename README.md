@@ -1,6 +1,6 @@
 # MHZ19B-PMW-Wemos-D1-mini-Wemos-0.66-inch-OLED-Shield-MQTT-and-node-RED
 
-This is a setup, with a Wemos D1 mini, an 0.66 inch Oled shield, a CO2 sensor and a RGB Led, makes a connection to a MQTTbroker and publish the CO2 level to certain Topic. The MQTT broker is hivemq.com, a free and open (no authentication needed) broker, this is very useful for demo purposes where you can use your smartphone as an Access Point ("tethering mode"), or install your own free MQTT Broker like Mosquito. The CO2 level also will be visible on a OLED display and a RGB led.
+This is a setup with a Wemos D1 mini, an 0.66 inch Oled shield, CO2 sensor and a RGB Led. The Wemos D1 mini makes a connection with a MQTTbroker and publish the CO2 level to certain Topic. The MQTT broker is hivemq.com, a free and open (no authentication needed) broker, this is very useful for demo purposes where you can use your smartphone as an Access Point ("tethering mode"), or install your own free MQTT Broker like Mosquito. The CO2 level also will be visible on a OLED display and a RGB led.
 
 MQTT Clients (e.g.MQTT.fx),  can subcribe to that Topic and receive the CO2 level. Besides you can use node-RED and the attached flow to link things together. This is done by using a "MQTT in" node in node-RED and subscribe to that Topic.
 The node-RED flow creates a simple dashboard and gives audio warnings using Text To Speak nodes.
