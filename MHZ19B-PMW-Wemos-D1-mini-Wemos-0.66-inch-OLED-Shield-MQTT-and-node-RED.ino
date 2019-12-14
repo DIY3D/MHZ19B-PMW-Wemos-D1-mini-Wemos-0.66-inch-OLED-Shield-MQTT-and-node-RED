@@ -1,16 +1,16 @@
-#include <Wire.h>             // Using library Wire at version 1.0 in folder:
-                              // C:\Users\<username>\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\libraries\Wire
-#include <Adafruit_GFX.h>     // https://github.com/adafruit/Adafruit-GFX-Library
-#include <Adafruit_SSD1306.h> // https://github.com/mcauser/Adafruit_SSD1306/tree/esp8266-64x48
-#include <ESP8266WiFi.h>      // Using library ESP8266WiFi at version 1.0 in folder: C:\Users\<username>\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\libraries\ESP8266WiFi 
-#include <PubSubClient.h>     // http://downloads.arduino.cc/libraries/github.com/knolleary/PubSubClient-2.7.0.zip
+#include <Wire.h>                 // Using library Wire at version 1.0 in folder:
+                                  // C:\Users\<username>\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\libraries\Wire
+#include <Adafruit_GFX.h>         // https://github.com/adafruit/Adafruit-GFX-Library
+#include <Adafruit_SSD1306.h>     // https://github.com/mcauser/Adafruit_SSD1306/tree/esp8266-64x48
+#include <ESP8266WiFi.h>          // Using library ESP8266WiFi at version 1.0 in folder: C:\Users\<username>\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.4.1\libraries\ESP8266WiFi 
+#include <PubSubClient.h>         // http://downloads.arduino.cc/libraries/github.com/knolleary/PubSubClient-2.7.0.zip
 
-const char* ssid = "your SSID"; // The name of your wifi network, For demo purpose, put our smartphone in "Tethering Mode" and use the name of that Access Point.
+const char* ssid = "your SSID";   // The name of your wifi network, For demo purpose, put our smartphone in "Tethering Mode" and use the name of that Access Point.
 const char* password = "yourPassWord";
 const char* mqttServer = "broker.hivemq.com"; // This is a free online MQTT Broker, no authentication needed. 
-const int mqttPort = 1883; // Standard MQTT portnumber
-const char* mqttUser = ""; // Leave as it is if you use hivemq.com
-const char* mqttPassWord = ""; // Leave as it is if you use hivemq.com
+const int mqttPort = 1883;        // Standard MQTT portnumber
+const char* mqttUser = "";        // Leave as it is if you use hivemq.com
+const char* mqttPassWord = "";    // Leave as it is if you use hivemq.com
 char message[16];
 
 WiFiClient espClient;
