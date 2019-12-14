@@ -19,8 +19,12 @@ I compared this sensor with 2 other certified CO2 sensors and find a difference 
 <p></p>
 <img src="Images/IMG_20191214_163533.jpg" width="300" >
 <b>Breadboard setup</b>
+<p></p>
 <img src="Images/Flow.png" width="650" >
 <b>node-RED flow  (<i>Click picture for a better view</i>)</b>
+<p></p>
+<img src="Images/node-RED_Dashboard.png" width="650" >
+<b>node-RED Dashboard  (<i>Click picture for a better view</i>)</b>
 <p></p>
 <p></p>
 <a href="https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf">MH-Z19B user's manual</a> 
