@@ -6,7 +6,7 @@ MQTT Clients (e.g.MQTT.fx),  can subcribe to that Topic and receive the CO2 leve
 The node-RED flow creates a simple dashboard and gives audio warnings using Text To Speak nodes.
 
 There are 2 ways to read the data from this CO2 sensor; that is UART or PWM. This CO2 sensor is connected to a Wemos D1 mini and uses pin D5 for the PWM reading.
-I compared this sensor with 2 other certified CO2 sensors and find a difference of 60-80 ppm which a think is pretty good for this cheap sensor.
+I compared this sensor with 2 other calibrated CO2 sensors and find a difference of 60-80 ppm which a think is pretty good for this cheap sensor.
 
 <img src="Images/MHZ19B.JPG" width="300" >
 <b>Winsum MHZ19B CO2 sensor</b>
